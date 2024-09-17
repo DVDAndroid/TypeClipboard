@@ -70,7 +70,7 @@ namespace TypeClipboard
                         SendKeys.Send(c.ToString());
                         break;
                 }
-                Thread.Sleep(INTERKEY_DELAY);
+                // Thread.Sleep(INTERKEY_DELAY);
             }
         }
 
